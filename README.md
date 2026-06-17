@@ -1,29 +1,39 @@
-# 📊 Power BI Sales Analytics Dashboard
+# Power BI Enterprise Sales Analytics Solution
 
-> A comprehensive end-to-end analytics solution combining **Azure Fabric**, **Spark SQL**, **Excel**, and **Power BI** with a logic-first analytical approach.
+## Executive Summary
+This repository contains an enterprise-grade, end-to-end business intelligence solution leveraging Azure Fabric, Spark SQL, Microsoft Excel, and Power BI. Engineered around a logic-first analytical methodology, this project establishes a scalable data pipeline that ingests raw transactional data, applies distributed transformations, validates data integrity, and deploys executive-ready KPI dashboards for strategic decision-making.
 
-This project demonstrates a complete analytics workflow designed for business intelligence and data-driven decision-making.
+---
 
-## Project Overview
+## Project Interface Overview
 
-![Sales Analytics Dashboard](Images/Dashboard.jpg)
+![Enterprise Sales Analytics Dashboard](Images/Dashboard.jpg)
 
-The dashboard provides actionable insights into:
-- **Total Sales, Orders, and Customers** – Key business metrics at a glance
-- **Year-over-Year (YoY) & Last-Year (LY) Analysis** – Performance trends and growth tracking
-- **Category-wise Sales Growth** – Segment performance and comparative analysis
-- **Business-Ready KPIs** – Optimized metrics for executive decision-making
+The master dashboard interface provides real-time visibility into high-level performance metrics, macro trajectories, and seasonal fluctuations to facilitate immediate corporate evaluation.
 
-## 🛠️ Tools & Technologies
+---
 
-| Technology | Purpose |
-|-----------|---------|
-| **Azure Fabric** | Cloud-based data management and analytics platform |
-| **Spark SQL** | Distributed data transformation and querying |
-| **Microsoft Excel** | Data validation, exploratory analysis, and support |
-| **Power BI** | Data modeling, DAX calculations, and visualization |
+## Core Analytical Objectives
+The reporting layer is architected to uncover operational drivers and track performance velocity across multiple business vectors:
+* **Core Volume Metrics:** High-level tracking of Gross Sales, Total Order Volume, and Unique Customer Acquisition.
+* **Chronological Variance:** Comparative evaluation of Year-over-Year (YoY) performance and Last-Year (LY) baselines to track growth trajectories.
+* **Segment Performance Matrix:** Multi-dimensional slicing of sales growth across distinct product categories and operational segments.
+* **Executive KPIs:** Business-ready key performance indicators designed to support rapid resource allocation.
 
-## 📁 Repository Structure
+---
+
+## Technical Infrastructure
+
+| Technology | Domain | Purpose |
+| :--- | :--- | :--- |
+| **Azure Fabric** | Data Architecture | Cloud-based data management, governance, and unified analytics lakehouse infrastructure. |
+| **Spark SQL** | Data Engineering | Distributed processing engine utilized for heavy data transformations and schema enforcement. |
+| **Microsoft Excel** | Data Assurance | Statistical validation, exploratory data profiling, and baseline auditing. |
+| **Power BI** | Business Intelligence | Star-schema data modeling, complex DAX formulation, and interactive dashboard deployment. |
+
+---
+
+## Directory Architecture
 
 ```text
 ├── Dashboard/
@@ -35,42 +45,3 @@ The dashboard provides actionable insights into:
 │   ├── Table.jpg
 │   └── README.md
 └── README.md
-```
-
-## 🎯 Key Features
-
-- **Interactive Dashboards** – Dynamic slicers and filters for real-time analysis
-- **Time Intelligence** – Proper Date table for YoY and trend comparisons
-- **Multi-Dimensional Analysis** – Category, segment, and product-level insights
-- **Data Validation** – Excel-backed analysis ensuring accuracy
-- **Scalable Architecture** – Built on Azure Fabric for enterprise-grade performance
-
-## 📈 Dashboard Highlights
-
-- Real-time KPI tracking
-- Comparative performance metrics
-- Interactive drill-down capabilities
-- Business-focused visualization
-
-## 🚀 Getting Started
-
-1. **Download** the Power BI file (`sales_analysis_powerBI_project.pbix`) from the Dashboard folder
-2. **Connect** to your data source via Azure Fabric
-3. **Explore** the interactive visualizations and KPIs
-4. **Customize** the DAX measures and filters as needed
-
-## 📝 Project Approach
-
-This dashboard follows a **logic-first methodology**, prioritizing:
-- Business logic and requirements before visualization
-- Data accuracy and validation
-- Scalable and maintainable code structure
-- User-focused analytics
-
-## 📧 Contact & Support
-
-For questions or suggestions, feel free to reach out!
-
----
-
-**Last Updated:** June 2026 | **Status:** Production Ready
