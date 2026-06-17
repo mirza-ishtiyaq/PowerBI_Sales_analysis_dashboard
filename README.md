@@ -1,4 +1,4 @@
-# End-to-End Sales Analytics Dashboard
+# Sales Analytics Dashboard
 
 This project demonstrates a complete analytics workflow using **Azure Fabric**, **Spark SQL**, **Excel**, and **Power BI**, following a logic-first and business-driven approach.
 
